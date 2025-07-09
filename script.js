@@ -14,8 +14,8 @@ cancelBtn.onclick = () => {
 // Download CV
 function downloadCV() {
   const link = document.createElement("a");
-  link.href = "Portfolios\\1st\\CV.pdf";
-  link.download = "Portfolios\\1st\\CV.pdf";
+  link.href = "./CV.pdf";
+  link.download = "./CV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
